@@ -1,0 +1,87 @@
+/* Reset list styling and align items horizontally */
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+ul {
+    list-style: none !important;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Align list items and add padding */
+ul li {
+    margin: 0;
+    vertical-align: middle;
+    display: inline-flex;
+    
+}
+body{
+    color: var(--primart-text-color);
+}
+
+/* Navbar styling with blurred background and background image */
+.navbar {
+    height: 7vh;
+    min-height: 2.5em;
+   display: flex;
+   align-items: center;
+   vertical-align: middle;
+   padding: 0 4em;
+   justify-content: space-between;
+   background-color: var(--background-color);
+   box-shadow: 0px 6px 10px rgb(0, 0,0,0.5);
+   position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it stays above other content */
+  
+  /* box-shadow: 0 4px 2px -2px gray; Optional shadow for effect */
+}
+
+/* Styling for links and text in the navbar */
+ul li a, h1 a {
+    margin: 0;
+    text-decoration: none;
+    color: var(--primary-text-color);
+   
+}
+
+/* Change color on hover */
+ul li a:hover, h1 a:hover {
+   
+}
+
+/* Styling for the logo */
+.logo {
+    
+    vertical-align: middle;
+    font-family: "Handjet", sans-serif;
+    padding-top: 1vh;
+}
+.logo span
+{
+    color: black;
+    font-size: xx-large;
+    font-family: "Caveat", cursive;
+}
+.link
+{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: .5em;
+    margin-right: 40px;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-size: large;
+}
+span{
+    margin-right: 5px;
+    font-family: "Lobster", sans-serif;
+    font-size: larger;
+    
+}
+.btn-logout
+{
+    color: var(--highlight-color);
+}

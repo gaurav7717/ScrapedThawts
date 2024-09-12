@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+:root {
+    --background-color: #F5F6FA;
+    --primary-text-color: #3E4B54;
+    --accent-color: #F29A8B   ;
+    --secondary-color: #A7BEC8;
+    --neutral-color: #F1E1C6;
+    --highlight-color: #FFD166;
+    --border-color: #8E4552;
+    --card-color: rgba(1, 2, 9, 0.3);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  /* Dark mode colors */
+  .dark-mode {
+    --background-color: #2B2C30;
+    --primary-text-color: #EAE6DD;
+    --accent-color: #D96D65;
+    --secondary-color: #6A8D92;
+    --neutral-color: #3E3F44;
+    --highlight-color: #E1B342;
+    --border-color: #5C2A35;
   }
-  to {
-    transform: rotate(360deg);
+  
+  /* Apply these variables globally */
+  body {
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
   }
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+.App
+{
+    /* background-color: rgb(6, 17, 13); */
+    /* color: #b99067; */
+    
+    
+}
+.blog-list
+{
+  list-style:none;
+  gap:1em;
+  
 }

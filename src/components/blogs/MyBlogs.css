@@ -1,0 +1,28 @@
+/* 
+
+li{
+    margin-bottom: 2rem;
+
+    
+}
+h1{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 1em;
+}
+.blog-list{
+    
+    display: flex;
+    justify-content: start;
+    
+    gap: 2em; 
+    list-style: none;
+}
+body{
+    color: var(--primart-text-color);
+    background-color: var(--secondary-color);
+}
+p{
+    font-size: x-large;
+   
+} */
