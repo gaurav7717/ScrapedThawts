@@ -1,0 +1,47 @@
+.sign-head{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1em;
+    
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* min-width: none; */
+    /* margin: 0 auto; */
+}
+form input {
+    margin-bottom: 1em;
+    border: 2px solid var(--card-color);
+    height: 2em;
+    border-radius: 4px;
+    width: auto;
+}
+.sign-btn
+{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.sign-btn button{
+    padding: .5em 1em;
+    background-color: black;
+    border: 2px solid var(--card-color);
+    color:#F5F6FA;
+    font-weight: 500;
+}
+body{
+    background-color: var(--secondary-color);
+   
+}
+.sign-page
+{
+    margin: 2em auto;
+    width: 40%;
+    border: 2px solid black;
+    padding: 2em 2em;
+    border-radius: 13px;
+    background-color: var(--card-color); 
+}

@@ -159,8 +159,8 @@ export default function BlogItem({ blog, isMyBlog }) {
     <React.Fragment>
       <Card
         sx={{
-          maxWidth: 340,
-          minWidth: 330,
+          maxWidth: 330,
+          minWidth: 300,
           maxHeight: 300,
           border: "1px solid var(--border-color)",
           // minWidth:345,
@@ -271,8 +271,9 @@ export default function BlogItem({ blog, isMyBlog }) {
         sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}
       >
         <Sheet
+        className="sheet"
           variant="outlined"
-          sx={{ maxWidth: 500, borderRadius: "md", p: 3, boxShadow: "lg" }}
+          sx={{ maxWidth: 400, borderRadius: "md", p: 2, boxShadow: "lg" }}
         >
           <ModalClose variant="plain" sx={{ m: 1 }} />
           <Typography

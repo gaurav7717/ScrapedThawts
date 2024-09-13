@@ -8,6 +8,8 @@ import {
 import { auth } from "../../firebase";
 import { setDoc , doc} from "firebase/firestore";
 import { db } from "../../firebase";
+import "../blogs/SingUp.css"
+import Navbar from "../Navbar";
 
 function SignUp() {
   const navigate = useNavigate();
@@ -85,8 +87,10 @@ function SignUp() {
   };
 
   return (
-    <div>
-      <h1>Sign Up / Sign In</h1>
+    <>
+    <Navbar/>
+    <div className="sign-page">
+      <h1 className="sign-head">Sign Up / Sign In</h1>
       <form>
         <input
           type="text"
@@ -108,10 +112,13 @@ function SignUp() {
           placeholder="Password"
           required
         />
+        <div class="sign-btn">
         <button onClick={handleSignUp}>Sign Up</button>
         <button onClick={handleSignIn}>Sign In</button>
+        </div>
       </form>
     </div>
+    </>
   );
 }
 

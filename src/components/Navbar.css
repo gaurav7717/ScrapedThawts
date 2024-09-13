@@ -85,3 +85,30 @@ span{
 {
     color: var(--highlight-color);
 }
+
+@media only screen and (max-width: 600px) {
+    h1
+    {
+        font-size: medium;
+ }
+ span{
+    font-size: medium;
+ }
+ .navbar{
+    padding: 0;
+    width: 100%;
+    height: 7vh;
+    padding-bottom: 6px;
+ }
+ Link
+ {
+    font-size: small !important;
+ }
+ ul 
+ {
+    padding: 0;
+ }
+ .logo{
+    padding-left: 10px;
+ }
+}

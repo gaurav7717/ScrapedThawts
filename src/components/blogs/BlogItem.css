@@ -23,3 +23,10 @@
     
     
 }
+@media only screen and (max-width: 600px) 
+{
+    .sheet
+    {
+        max-width: 300px !important;
+    }
+}
