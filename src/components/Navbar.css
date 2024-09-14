@@ -47,17 +47,12 @@ ul li a, h1 a {
    
 }
 
-/* Change color on hover */
-ul li a:hover, h1 a:hover {
-   
-}
-
 /* Styling for the logo */
 .logo {
     
     vertical-align: middle;
     font-family: "Handjet", sans-serif;
-    padding-top: 1vh;
+    /* padding-top: 1vh; */
 }
 .logo span
 {
@@ -69,7 +64,7 @@ ul li a:hover, h1 a:hover {
 {
     text-align: center;
     vertical-align: middle;
-    padding-top: .5em;
+    padding-top: .3em;
     margin-right: 40px;
     font-family: "Anonymous Pro", monospace;
     font-weight: 700;
@@ -110,5 +105,9 @@ span{
  }
  .logo{
     padding-left: 10px;
+ }
+ .link
+ {
+    margin-right: 20px;
  }
 }

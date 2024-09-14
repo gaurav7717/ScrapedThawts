@@ -50,7 +50,7 @@ function BlogsForMe({searchQuery=""}) {
                 user ? (
                     filteredBlogs.length > 0 ? (
                         <>
-                            <Box sx={{ flexGrow: 1, paddingLeft: 5, paddingTop: 5 }}>
+                            <Box sx={{ flexGrow: 1, paddingLeft: 5, paddingTop: 5 }} className="list-box">
                                 <Grid container spacing={3} className="blog-list">
                                     {filteredBlogs.map((blog) => (
                                         <Grid>

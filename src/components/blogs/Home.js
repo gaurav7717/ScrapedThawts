@@ -64,7 +64,7 @@ export default function Home() {
           
         </Tabs>
         <TextField
-        
+          className='search-input'
         size="small"  
             label="Search tags"
             variant="filled"

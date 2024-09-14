@@ -54,7 +54,7 @@ const BlogList = ({ searchQuery }) => { // Accept searchQuery as a prop
       {/* Display filtered blogs */}
       {filteredBlogs.length > 0 ? (
         <>
-        <Box sx={{ flexGrow: 1, paddingLeft: 3, paddingTop: 5 }}>
+        <Box sx={{ flexGrow: 1, paddingLeft: 3, paddingTop: 5 }} className="list-box">
           <Grid container spacing={3} className="blog-list">
             {/* Map over filteredBlogs instead of blogs */}
             {filteredBlogs.map((blog) => (
