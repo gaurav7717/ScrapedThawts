@@ -57,11 +57,11 @@ export default function Home() {
     <Navbar/>
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: '#F1E1C6' , display: "flex" , justifyContent: "space-between"}}>
-        <Tabs className="tabs" value={value} onChange={handleChange} aria-label="basic tabs example" indicatorColor="#E4552" >
+        <Tabs className="tabs" value={value} onChange={handleChange} aria-label="basic tabs example" indicatorColor="black" >
           <Tab className ="tab-text" label="All Thawts" {...a11yProps(0)} />
           <Tab className ="tab-text" label="Thawts for me" {...a11yProps(1)} />
           <Tab className ="tab-text" label="My Thawts" {...a11yProps(2)} />
-          
+         
         </Tabs>
         <TextField
           className='search-input'

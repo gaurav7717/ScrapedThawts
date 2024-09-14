@@ -55,7 +55,7 @@ const BlogList = ({ searchQuery }) => { // Accept searchQuery as a prop
       {filteredBlogs.length > 0 ? (
         <>
         <Box sx={{ flexGrow: 1, paddingLeft: 3, paddingTop: 5 }} className="list-box">
-          <Grid container spacing={3} className="blog-list">
+          <Grid container spacing={2} className="blog-list">
             {/* Map over filteredBlogs instead of blogs */}
             {filteredBlogs.map((blog) => (
               <Grid item key={blog.id} size="auto">

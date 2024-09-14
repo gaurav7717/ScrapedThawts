@@ -228,6 +228,9 @@ function Create() {
           onChange={(e) => setTags(e.target.value)}
           fullWidth
         />
+        <p style={{ colors: "#A7BEC8 !important" , fontSize: "medium"}}>
+         Enter ' , ' between tags
+        </p>
 
         <Button
           component="label"

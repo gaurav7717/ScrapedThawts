@@ -59,19 +59,26 @@ ul li a, h1 a {
     color: black;
     font-size: xx-large;
     font-family: "Caveat", cursive;
+    margin-right: 5px;
 }
 .link
 {
     text-align: center;
     vertical-align: middle;
-    padding-top: .3em;
+    padding: 15px;
     margin-right: 40px;
     font-family: "Anonymous Pro", monospace;
     font-weight: 700;
     font-size: large;
 }
-span{
-    margin-right: 5px;
+.link
+ {
+    
+    vertical-align: middle;
+    padding: 10px 0;
+ }
+.display-name{
+    
     font-family: "Lobster", sans-serif;
     font-size: larger;
     
@@ -109,5 +116,12 @@ span{
  .link
  {
     margin-right: 20px;
+    vertical-align: middle;
+    padding: 15px 0;
+    font-size: medium;
+ }
+ li
+ {
+    padding-top: 6px;
  }
 }

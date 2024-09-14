@@ -47,7 +47,7 @@ function Navbar() {
               {user ? (
                 <div style={{ display: "flex", alignItems: "center" }}>
                 {/* <AccountCircleIcon /> */}
-                <span style={{color: "var(--accent-color)"}}>{user.displayName}</span>
+                <span className='display-name' style={{color: "var(--accent-color)"}}>{user.displayName}</span>
                 
                 <Button  aria-label='logout' onClick={handleLogout}><LogoutIcon className='btn-logout'/></Button>
               </div>

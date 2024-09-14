@@ -1,6 +1,7 @@
 .sign-head{
     text-align: center;
     margin: 0;
+    font-size: xx-large;
     margin-bottom: 1em;
     
 
@@ -40,11 +41,22 @@ body{
 }
 .sign-page
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     margin: 3em auto;
-    width: 25%;
-    height: 50vh;
+    width: 30%;
+   
+    height: 40vh;
     border: 2px solid black;
     padding: 2em 2em;
     border-radius: 13px;
     background-color: var(--card-color); 
+}
+@media only screen and (max-width: 600px) 
+{
+    .sign-page
+    {
+        width: 70%;
+    }
 }
